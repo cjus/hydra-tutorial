@@ -17,7 +17,7 @@ let main = async ()=>{
       '/v1/blue': api
     });
   });
-  let logEntry = `Started ${hydra.getServiceName()} (v.${hydra.getInstanceVersion()})`;
+  let logEntry = `Started ${hydra.getServiceName()} (${hydra.getInstanceVersion()})`;
   console.log(logEntry);
 };
 
