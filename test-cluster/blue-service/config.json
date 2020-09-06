@@ -1,13 +1,12 @@
-
 {
   "hydra": {
     "serviceName": "blue-service",
-    "serviceIP": "10.0.0.89",
+    "serviceIP": "",
     "servicePort": 5001,
     "serviceType": "blue service",
     "serviceDescription": "A simple blue service",
     "redis": {
-      "url": "redis://127.0.0.1:6379/15"
+      "url": "redis://redis:6379/15"
     }
   }
 }

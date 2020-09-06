@@ -11,7 +11,7 @@ api.get('/hello', (req, res) => {
   });
 });
 
-let main = async ()=>{
+let main = async () => {
   await hydraExpress.init(`${__dirname}/config.json`, () => {
     hydraExpress.registerRoutes({
       '/v1/red': api
@@ -22,4 +22,3 @@ let main = async ()=>{
 };
 
 main();
-

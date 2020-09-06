@@ -1,0 +1,12 @@
+{
+  "hydra": {
+    "serviceName": "green-service",
+    "serviceIP": "",
+    "servicePort": 5002,
+    "serviceType": "green service",
+    "serviceDescription": "A simple green service",
+    "redis": {
+      "url": "redis://redis:6379/15"
+    }
+  }
+}
